@@ -5,6 +5,7 @@
 /.vs/SMSineitor/v16/Server/sqlite3
 SMSineitor.sln
 /.vs
+SMSineitor/bin
 SMSineitor/obj
 SMSineitor/obj/Debug/MainWindow.g.cs
 SMSineitor/obj/Debug/SMSineitor_MarkupCompile.cache
