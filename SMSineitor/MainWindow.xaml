@@ -25,16 +25,16 @@
 		</ComboBox>
 		<TextBlock>Mensaje</TextBlock>
 		<TextBox x:Name="Message"></TextBox>
-		<Button>:)</Button>
-		<Button>:(</Button>
-		<Button>:|</Button>
-		<Button>:/</Button>
-		<Button>UwU</Button>
-		<Button>xD</Button>
-		<Button>:O</Button>
-		<Button>D:</Button>
-		<Button>:W</Button>
-		<Button>:D</Button>
+		<Button x:Name="Emoji1">:)</Button>
+		<Button x:Name="Emoji2">:(</Button>
+		<Button x:Name="Emoji3">:|</Button>
+		<Button x:Name="Emoji4">:/</Button>
+		<Button x:Name="Emoji5">UwU</Button>
+		<Button x:Name="Emoji6">xD</Button>
+		<Button x:Name="Emoji7">:O</Button>
+		<Button x:Name="Emoji8">D:</Button>
+		<Button x:Name="Emoji9">:W</Button>
+		<Button x:Name="Emoji10">:D</Button>
 		<TextBlock x:Name="TimeAndDate">Hora servidor</TextBlock>
 		<TextBlock x:Name="CaptchaText">Captcha: 2+2</TextBlock>
 		<TextBlock x:Name="Captcha"></TextBlock>
@@ -42,6 +42,6 @@
 		<TextBlock>Programar envío</TextBlock>
 		<TextBox x:Name="TimeAndDateQueue"></TextBox>
 		<Button x:Name="Queue">Programar</Button>
-		<Image></Image>
+		<Image Source="download.png" Height="48"></Image>
 	</StackPanel>
 </Window>
