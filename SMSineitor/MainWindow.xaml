@@ -5,28 +5,43 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SMSineitor"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="540" Width="800">
     <StackPanel>
+		<TextBlock>Número</TextBlock>
 		<TextBox x:Name="PhoneNumber"></TextBox>
+		<TextBlock>Nombre</TextBlock>
 		<TextBox x:Name="Name"></TextBox>
-		<ComboBox x:Name="Companies"></ComboBox>
+		<TextBlock>Compañía</TextBlock>
+		<ComboBox x:Name="Companies">
+			<ComboBoxItem>Claro</ComboBoxItem>
+			<ComboBoxItem>Entel</ComboBoxItem>
+			<ComboBoxItem>Grupo GTD</ComboBoxItem>
+			<ComboBoxItem>Movistar</ComboBoxItem>
+			<ComboBoxItem>Nextel</ComboBoxItem>
+			<ComboBoxItem>Simple</ComboBoxItem>
+			<ComboBoxItem>Virgin Mobile</ComboBoxItem>
+			<ComboBoxItem>VTR</ComboBoxItem>
+			<ComboBoxItem>WOM</ComboBoxItem>
+		</ComboBox>
+		<TextBlock>Mensaje</TextBlock>
 		<TextBox x:Name="Message"></TextBox>
-		<Button></Button>
-		<Button></Button>
-		<Button></Button>
-		<Button></Button>
-		<Button></Button>
-		<Button></Button>
-		<Button></Button>
-		<Button></Button>
-		<Button></Button>
-		<Button></Button>
+		<Button>:)</Button>
+		<Button>:(</Button>
+		<Button>:|</Button>
+		<Button>:/</Button>
+		<Button>UwU</Button>
+		<Button>xD</Button>
+		<Button>:O</Button>
+		<Button>D:</Button>
+		<Button>:W</Button>
+		<Button>:D</Button>
 		<TextBlock x:Name="TimeAndDate">Hora servidor</TextBlock>
+		<TextBlock x:Name="CaptchaText">Captcha: 2+2</TextBlock>
 		<TextBlock x:Name="Captcha"></TextBlock>
-		<TextBlock x:Name="CaptchaText">2+2</TextBlock>
-		<Button x:Name="Send"></Button>
+		<Button x:Name="Send">Enviar</Button>
+		<TextBlock>Programar envío</TextBlock>
 		<TextBox x:Name="TimeAndDateQueue"></TextBox>
-		<Button x:Name="Queue"></Button>
-		<Image Height="60"></Image>
+		<Button x:Name="Queue">Programar</Button>
+		<Image></Image>
 	</StackPanel>
 </Window>
