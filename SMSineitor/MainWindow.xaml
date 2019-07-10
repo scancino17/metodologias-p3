@@ -6,7 +6,27 @@
         xmlns:local="clr-namespace:SMSineitor"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <StackPanel>
+		<TextBox x:Name="PhoneNumber"></TextBox>
+		<TextBox x:Name="Name"></TextBox>
+		<ComboBox x:Name="Companies"></ComboBox>
+		<TextBox x:Name="Message"></TextBox>
+		<Button></Button>
+		<Button></Button>
+		<Button></Button>
+		<Button></Button>
+		<Button></Button>
+		<Button></Button>
+		<Button></Button>
+		<Button></Button>
+		<Button></Button>
+		<Button></Button>
+		<TextBlock x:Name="TimeAndDate">Hora servidor</TextBlock>
+		<TextBlock x:Name="Captcha"></TextBlock>
+		<TextBlock x:Name="CaptchaText">2+2</TextBlock>
+		<Button x:Name="Send"></Button>
+		<TextBox x:Name="TimeAndDateQueue"></TextBox>
+		<Button x:Name="Queue"></Button>
+		<Image Height="60"></Image>
+	</StackPanel>
 </Window>
