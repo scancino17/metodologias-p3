@@ -25,16 +25,16 @@
 		</ComboBox>
 		<TextBlock>Mensaje</TextBlock>
 		<TextBox x:Name="Message"></TextBox>
-		<Button x:Name="Emoji1">:)</Button>
-		<Button x:Name="Emoji2">:(</Button>
-		<Button x:Name="Emoji3">:|</Button>
-		<Button x:Name="Emoji4">:/</Button>
-		<Button x:Name="Emoji5">UwU</Button>
-		<Button x:Name="Emoji6">xD</Button>
-		<Button x:Name="Emoji7">:O</Button>
-		<Button x:Name="Emoji8">D:</Button>
-		<Button x:Name="Emoji9">:W</Button>
-		<Button x:Name="Emoji10">:D</Button>
+        	<Button x:Name="Emoji1" Click="Emoji1_Click">😁</Button >
+        	<Button x:Name="Emoji2" Click="Emoji2_Click">😞</Button>
+        	<Button x:Name="Emoji3" Click="Emoji3_Click">😒</Button>
+        	<Button x:Name="Emoji4" Click="Emoji4_Click">😍</Button>
+        	<Button x:Name="Emoji5" Click="Emoji5_Click">😖</Button>
+        	<Button x:Name="Emoji6" Click="Emoji6_Click">😂</Button>
+        	<Button x:Name="Emoji7" Click="Emoji7_Click">😲</Button>
+        	<Button x:Name="Emoji8" Click="Emoji8_Click">😨</Button>
+        	<Button x:Name="Emoji9" Click="Emoji9_Click">😚</Button>
+        	<Button x:Name="Emoji10" Click="Emoji10_Click">😡</Button>
 		<TextBlock x:Name="TimeAndDate">Hora servidor</TextBlock>
 		<TextBlock x:Name="CaptchaText">Captcha: 2+2</TextBlock>
 		<TextBlock x:Name="Captcha"></TextBlock>
