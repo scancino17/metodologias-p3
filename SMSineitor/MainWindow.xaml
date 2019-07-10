@@ -23,7 +23,7 @@
 			<ComboBoxItem>VTR</ComboBoxItem>
 			<ComboBoxItem>WOM</ComboBoxItem>
 		</ComboBox>
-		<TextBlock>Mensaje</TextBlock>
+		<TextBlock>Mensaje </TextBlock>
 		<TextBox x:Name="Message"></TextBox>
         	<Button x:Name="Emoji1" Click="Emoji1_Click">😁</Button >
         	<Button x:Name="Emoji2" Click="Emoji2_Click">😞</Button>
