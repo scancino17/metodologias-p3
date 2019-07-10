@@ -21,5 +21,11 @@ namespace SMSineitor {
 		public MainWindow() {
 			InitializeComponent();
 		}
+
+		private void Send_Click(object sender, RoutedEventArgs e) {
+			var numeroInt = Convert.ToInt32(this.PhoneNumber.Text);
+			var mensaje = new Mensaje(numeroInt, this.Message.Text);
+			this.Exito.Text = "Enviado";
+		}
 	}
 }

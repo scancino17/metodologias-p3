@@ -11,7 +11,7 @@ namespace SMSineitor
         int numero { get; set; }
         string mensaje { get; set; }
 
-        Mensaje(int _numero, string _mensaje)
+        public Mensaje(int _numero, string _mensaje)
         {
             if (_numero >= 1000000000) throw new Exception("Número no válido");
             if(_mensaje.Length > 50) throw new Exception("Mensaje no válido");
